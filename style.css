@@ -63,7 +63,8 @@ body {
   color: #fff;
 }
 
-.header__title, .section-your-comunity__title {
+.header__title,
+.section-your-comunity__title {
   font-family: "Poppins", sans-serif;
   text-align: center;
   width: 265px;
@@ -71,7 +72,8 @@ body {
   margin: 0 auto 36px;
 }
 @media (min-width: 1024px) {
-  .header__title, .section-your-comunity__title {
+  .header__title,
+  .section-your-comunity__title {
     width: 1000px;
     height: unset;
     font-size: 2.98em;
@@ -91,7 +93,9 @@ body {
     font-size: 1.25em;
   }
 }
-.header__button, .newsletter-subscription__submit, .section-your-comunity__button {
+.header__button,
+.newsletter-subscription__submit,
+.section-your-comunity__button {
   background-color: hsl(322deg, 100%, 66%);
   border: none;
   border: 1px solid unset;
@@ -104,13 +108,17 @@ body {
   margin-bottom: 290px;
 }
 @media (min-width: 1024px) {
-  .header__button, .newsletter-subscription__submit, .section-your-comunity__button {
+  .header__button,
+  .newsletter-subscription__submit,
+  .section-your-comunity__button {
     width: 400px;
     height: 80px;
     font-size: 1.25em;
   }
 }
-.header__button:hover, .newsletter-subscription__submit:hover, .section-your-comunity__button:hover {
+.header__button:hover,
+.newsletter-subscription__submit:hover,
+.section-your-comunity__button:hover {
   cursor: pointer;
   background-color: hsl(321deg, 100%, 78%);
   color: #fff;
@@ -248,7 +256,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 120px 0;
-  background-image: url("../images/bg-section-bottom-mobile-1.svg"), url("../images/bg-section-top-mobile-2.svg");
+  background-image: url("../images/bg-section-bottom-mobile-1.svg"),
+    url("../images/bg-section-top-mobile-2.svg");
   background-repeat: no-repeat, no-repeat;
   background-position-y: top, bottom;
 }
@@ -288,7 +297,8 @@ body {
 }
 @media (min-width: 1024px) {
   .section-flowing-conversations {
-    background-image: url("../images/bg-section-bottom-desktop-1.svg"), url("../images/bg-section-top-desktop-2.svg");
+    background-image: url("../images/bg-section-bottom-desktop-1.svg"),
+      url("../images/bg-section-top-desktop-2.svg");
   }
 }
 
@@ -337,13 +347,15 @@ body {
 .section-your-comunity {
   height: 400px;
   padding-top: 250px;
-  background-image: url("../images/bg-section-bottom-mobile-2.svg"), url("../images/bg-footer-top-mobile.svg");
+  background-image: url("../images/bg-section-bottom-mobile-2.svg"),
+    url("../images/bg-footer-top-mobile.svg");
   background-repeat: no-repeat, no-repeat;
   background-position-y: top, bottom;
 }
 @media (min-width: 1024px) {
   .section-your-comunity {
-    background-image: url("../images/bg-section-bottom-desktop-2.svg"), url("../images/bg-footer-top-desktop.svg");
+    background-image: url("../images/bg-section-bottom-desktop-2.svg"),
+      url("../images/bg-footer-top-desktop.svg");
   }
 }
 .section-your-comunity__title {
